@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".clicker">
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Очки: 0"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/clickButton"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:text="click"
+        android:textSize="20sp"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/upgradeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Улучшение: +1 за клик (Стоимость: 10)"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/autoClickButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Автоклик (Стоимость: 50)"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/autoClickStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Автокликер: выключен"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>
